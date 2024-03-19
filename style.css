@@ -212,3 +212,12 @@ s .footer-social {
   align-items: center;
   justify-items: center;
 }
+
+.client-h1 {
+  text-align: center;
+  padding: 8rem;
+}
+.testimonials-container {
+  padding-bottom: 12rem;
+  text-align: center;
+}
