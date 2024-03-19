@@ -66,7 +66,7 @@ ul,
 .testimonials-descrip,
 .image,
 .footer-links,
-.footer-social {
+.footer-social , footer {
   display: flex;
   justify-content: space-between;
   gap: 4rem;
@@ -80,7 +80,8 @@ ul {
 .transfrom-text,
 .standout-text,
 .testimonials,
-.testimonials-descrip {
+.testimonials-descrip,
+footer {
   flex-direction: column;
 }
 
@@ -201,8 +202,7 @@ span a:after {
   height: auto;
 }
 .footer-links,
-s .footer-social {
-  width: 10%;
+.footer-social {
   margin: auto;
 }
 
@@ -220,4 +220,24 @@ s .footer-social {
 .testimonials-container {
   padding-bottom: 12rem;
   text-align: center;
+}
+
+footer {
+  background-color: hsl(168, 40%, 63%);
+  align-items: center;
+  padding: 4rem;
+}
+
+footer a {
+  padding-top: -1rem;
+  color: #458c7e;
+  font-size: bolder;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.testimonials-background {
+  background-color: ;
 }
